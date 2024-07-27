@@ -1,21 +1,22 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
   margin: 0;
   background-color: #000; /* dark black background */
 }
 
 .main {
-  display: contents!important;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 500px;
 }
 
 .box {
   --n: 20;   /* control the number of dashes */
   --d: 8deg; /* control the distance between dashes */
   --t: 5px;  /* control the thickness of border*/
-  --c: red;  /* control the coloration (can be a gradient) */
+  --c: #00c4ff73;  /* control the coloration (can be a gradient) */
   
   width: 120px;
   aspect-ratio: 1;
@@ -71,7 +72,6 @@ body {
 .box_2 {
   --n: 8;   /* control the number of dashes */
   --d: 20deg; /* control the distance between dashes */
-  --c: green;  /* control the coloration (can be a gradient) */
   
   width: 140px;
 }
@@ -87,7 +87,6 @@ body {
     --n: 0;   /* control the number of dashes */
   --d: 15deg; /* control the distance between dashes */
   --t: 2px;  /* control the thickness of border*/
-  --c: green;  /* control the coloration (can be a gradient) */
   
   width: 185px;
 }
@@ -103,7 +102,6 @@ body {
    --n: 2;   /* control the number of dashes */
   --d: 100deg; /* control the distance between dashes */
   --t: 2px;  /* control the thickness of border*/
-  --c: green;  /* control the coloration (can be a gradient) */
   width: 240px;
 }
 
@@ -117,14 +115,12 @@ body {
     --n: 8;   /* control the number of dashes */
   --d: 10deg; /* control the distance between dashes */
   --t: 15px;  /* control the thickness of border*/
-  --c: green;  /* control the coloration (can be a gradient) */
   width: 320px;
 }
 .box_9 {
     --n: 0;   /* control the number of dashes */
   --d: 50deg; /* control the distance between dashes */
   --t: 3px;  /* control the thickness of border*/
-  --c: red;  /* control the coloration (can be a gradient) */
   width: 335px;
 }
 .box_10 {
@@ -142,21 +138,18 @@ body {
 .box_12 {
     --n: 0;   /* control the number of dashes */
   --t: 3px;  /* control the thickness of border*/
-  --c: red;  /* control the coloration (can be a gradient) */
   width: 390px;
 }
 .box_13 {
   --n: 70;   /* control the number of dashes */
   --d: 2deg; /* control the distance between dashes */
   --t: 20px;  /* control the thickness of border*/
-  --c: green;  /* control the coloration (can be a gradient) */
   width: 440px;
   animation: rotate-anticlockwise 20s linear infinite; /* Adding rotation animation */
 }
 .box_14 {
     --n: 0;   /* control the number of dashes */
   --t: 3px;  /* control the thickness of border*/
-  --c: red;  /* control the coloration (can be a gradient) */
   width: 455px;
 }
 
