@@ -110,8 +110,8 @@ body {
   width: 280px;
 }
 .box_8 {
-    --n: 4;   /* control the number of dashes */
-  --d: 50deg; /* control the distance between dashes */
+    --n: 8;   /* control the number of dashes */
+  --d: 10deg; /* control the distance between dashes */
   --t: 15px;  /* control the thickness of border*/
   --c: green;  /* control the coloration (can be a gradient) */
   width: 320px;
